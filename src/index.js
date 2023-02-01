@@ -1,0 +1,3 @@
+import FreehandScissorsThresholdSegmentation from './FreehandScissorsThresholdSegmentation.js';
+
+export default FreehandScissorsThresholdSegmentation;

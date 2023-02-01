@@ -1,0 +1,55 @@
+{
+  "name": "cornerstone-tools-freehand-scissors-threshold-segmentation",
+  "version": "1.0.0",
+  "description": "3D Threshold segmentation tool that allows you to segment several slices at once within a freehand ROI, and then apply a threshold to the segmented area.",
+  "main": "dist/index.js",
+  "dependencies": {
+    "cornerstone-core": "^2.6.1",
+    "cornerstone-tools": "^6.0.8"
+  },
+  "devDependencies": {
+    "cornerstone-tools": "^6.0.8",
+    "cornerstone-core": "^2.6.1",
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IbrahimCSAE/cornerstone-tools-freehand-scissors-threshold-segmentation.git"
+  },
+  "keywords": [
+    "cornerstonetools",
+    "cornerstone",
+    "cornerstone3D",
+    "brush",
+    "cornerstonetools-brush",
+    "medical",
+    "dicom",
+    "dicomweb",
+    "series",
+    "image",
+    "threshold",
+    "segmentation",
+    "roi",
+    "rectangle",
+    "medical",
+    "imaging",
+    "cornerstone-tools",
+    "segmentation"
+  ],
+  "author": "Ibrahim Mohamed <ibrahim.mdev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IbrahimCSAE/cornerstone-tools-freehand-scissors-threshold-segmentation/issues"
+  },
+  "homepage": "https://github.com/IbrahimCSAE/cornerstone-tools-freehand-scissors-threshold-segmentationn#readme",
+  "files": [
+    "dist/index.js"
+  ]
+}
