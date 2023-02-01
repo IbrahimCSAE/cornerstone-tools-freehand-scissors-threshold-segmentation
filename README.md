@@ -2,9 +2,11 @@
 
 This tool allows you to segment pixels within an a shape drawn with freehand by specifying a minimum and maximum threshold value. Additionally, it can segment multiple slices at once by specifying the depth, such as 10 slices.<br>
 
-![demogif2](https://user-images.githubusercontent.com/93064150/214147658-521e31d0-c6b7-4d35-87dd-bb71277dfd19.gif)
+![demogif2](https://user-images.githubusercontent.com/93064150/216049411-5ba0f0c8-a19c-46d2-8b72-5bdf2f124aeb.gif)
+![demogif3](https://user-images.githubusercontent.com/93064150/216049423-e4a2714a-625a-4663-b5f1-ac7072983147.gif)
 
-The above gif demonstrates the threshold range being set to [200, 1000] and the depth set to 10 slices, showcasing the tool's ability to segment multiple slices while respecting the threshold range.
+
+The above gifs demonstrates the threshold range being set to [200, 1000], [-29, 150] and the depth set to 10 slices, showcasing the tool's ability to segment multiple slices while respecting the threshold range.
 
 
 ## Dependencies 
