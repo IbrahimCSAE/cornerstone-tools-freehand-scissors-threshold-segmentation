@@ -17,7 +17,7 @@ The above gifs demonstrates the threshold range being set to [200, 1000], [-29, 
 
 A live demo of the threshold brush tool is available for trying out.
 
-[LIVE DEMONSTRATION](https://ibrahimcsae.github.io/cornerstonetools-rectangle-roi-threshold-segmentation/)
+[LIVE DEMONSTRATION](https://ibrahimcsae.github.io/cornerstone-tools-freehand-scissors-threshold-segmentation/)
 
 While it is possible to segment over 300 slices at once, it is recommended to stay within the range of 50-150 slices, depending on your computer's specs.
 
