@@ -1,6 +1,6 @@
 {
   "name": "cornerstone-tools-freehand-scissors-threshold-segmentation",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "3D Threshold segmentation tool that allows you to segment several slices at once within a freehand ROI, and then apply a threshold to the segmented area.",
   "main": "dist/index.js",
   "dependencies": {

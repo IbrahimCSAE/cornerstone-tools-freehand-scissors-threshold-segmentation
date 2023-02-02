@@ -225,8 +225,9 @@ function getImagesInRange(currentImageIdIndex, imageIds, numberOfSlices) {
   let currentIndex = currentImageIdIndex;
   for (let i = 0; i < numberOfSlices; i++) {
     let newIndex = currentIndex + i;
+    // just stop if we reach the end
     if (newIndex >= imageIds.length) {
-      newIndex = newIndex - imageIds.length;
+      break;
     }
     imagesInRange.push({
       imageIdIndex: newIndex,
